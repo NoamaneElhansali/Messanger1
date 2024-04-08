@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style-login.css">
+    
+</head>
+<body>
+    <div class="cont">
+        <form action="" method="post" class="form1" id="form1">
+            <div class="div-form1">
+                <label class="login">Login form</label><br>
+                <p id="errur1"></p>
+                <input type="email" id="email" placeholder="Votre Email"><br>
+                
+                <input type="password" id="password" placeholder="Votre Mot de passe">
+                <p id="errur"></p>
+                <input type="button" value="Log in" id="Log-in">
+                <hr>
+                <input type="button" value="Sign up" id="Sign-up">
+            </div>
+        </form>
+        <form action="" class="form2" id="form2">
+            <div class="div-from2">
+                <label for="" class="login">Sign up form</label><br>
+                <p id="erurr2"></p>
+                <input type="text" id="Nom2" class="input-from2" placeholder="Votre Nom"><br>
+                <input type="text" id="Prenom2" class="input-from2" placeholder="Votre Prenom"><br>
+                <input type="email" id="Email2" class="input-from2" placeholder="Votre Email">
+                <p id="erurr3"></p>
+                <input type="password" id="password2" class="input-from2" placeholder="Votre Mot de passe">
+                <p id="erurr4"></p>
+                <input type="password" id="confermepassword" class="input-from2" placeholder="Conferme Votre Mot de passe">
+                <p id="erurr5"></p>
+                <input type="button" value="Cree accont" id="cree">
+                <p class="aleardy">Already have an account? <a href="#" id="log">Login here</a></p>
+            </div>
+        </form>
+        <div class="accontcree" id="accontcree">
+                <img src="img/check-mark.png" alt="verified" class="verified">
+                <h4 class="textverified">account Create successfully</h4>
+                <img src="img/cross.svg" alt="cross" class="cross" id="cross">
+        </div>
+    </div>
+    <div class="loader-wrapper">
+        <div class="loader"></div>
+    </div>
+    <script src="scriptlogin.js" type="module"></script>
+
+</body>
+</html>
